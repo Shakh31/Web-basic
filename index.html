@@ -3,54 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shakhzod</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+        
+        img {
+            align-items: center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d7e9ff;
+        }
+    </style>
 </head>
 <body>
+    <!-- This is the main page of the project -->
+    <h1>Certification Course Introduction</h1>
+    <p>Welcome to my certification course project. This page displays basic HTML structure including tables, lists, and links.</p>
+ 
+    <!-- Image with alt, width, height -->
+    <img src="Postman - Postman API Fundamentals Student Expert - 2025-12-01.png" alt="Certification Course Logo" width="250" height="150">
+    <br><br>
+
+    <!-- Navigation link to another page -->
+    <a href="about.html">Go to About Me Page</a>
+    
+    <h2>Course Content Table</h2>
+
     <table>
         <tr>
-            <th>Number</th>
-            <th>Full Name</th>
-            <th>Course</th>
-            <th>Student ID</th>
-            <th>Year</th>
+            <th>Week</th>
+            <th colspan="2">Topic</th>
+            <th>Hours</th>
         </tr>
 
         <tr>
-            <td>1</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td rowspan="2">1</td>
+            <td>HTML Basics</td>
+            <td>Tags & Elements</td>
+            <td>5</td>
         </tr>
+
+        <tr>
+            <td colspan="2">Practice + Assignment</td>
+            <td>3</td>
+        </tr>
+
         <tr>
             <td>2</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
+            <td colspan="2">CSS Introduction</td>
             <td>4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
         </tr>
     </table>
+
+    <!-- Basic formatting -->
+    <p style="color: green; font-size: 18px;">This text uses inline colors and font size.</p>
+
+    <!-- Comment section -->
+    <!-- This is a comment: Table and Lists created as per instructions -->
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Introduction</li>
+        <li>Learning the basics</li>
+        <li>Practice Examples</li>
+    </ol>
+
+    <!-- Link to tasks list page -->
+    <br>
+    <a href="tasks.html">Go to Tasks List Page</a>
 </body>
 </html>
